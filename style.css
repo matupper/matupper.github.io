@@ -27,6 +27,7 @@ body{
 
 .banner{
     font-size: 60px;
+    color: #363636;
 }
 .banner span{
     color: #648de5;
@@ -43,6 +44,10 @@ nav{
     width: 140px;
 }
 
+nav i{
+    color: #4a6db7;
+}
+
 nav ul li{
     display: inline-block;
     list-style: none;
@@ -50,11 +55,12 @@ nav ul li{
 }
 
 nav ul li a{
-    color: #ddd;
+    color: #363636;
     text-decoration: none;
     font-size: 18px;
     position: relative;
 }
+
 nav ul li a::after{
     content: '';
     width: 0;
@@ -109,6 +115,7 @@ nav ul li a:hover::after{
 }
 
 .tab-titles{
+    color: #4a6db7;
     display: flex;
     margin: 20px 0 40px;
 }
