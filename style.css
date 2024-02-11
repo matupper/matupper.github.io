@@ -38,6 +38,8 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    font-weight: 600;
+    font-size: 30px;
 }
 
 .logo{
@@ -77,6 +79,9 @@ nav ul li a:hover::after{
 .header-text{
     margin-top: 20%;
     font-size: 30px;
+}
+.header-text p{
+    color: #4a6db7;
 }
 .header-text h1{
     font-size: 60px;
@@ -147,7 +152,7 @@ nav ul li a:hover::after{
 }
 .tab-contents ul li span{
     color: #4a6db7;
-    font-size: 14px;
+    font-size: 18px;
 }
 .tab-contents{
     display: none;
