@@ -21,16 +21,21 @@ body{
     background-position: center;
     background-attachment: fixed;
 }
-.container{
+.container1{
+    background-color: #363636;
+    padding: 10px 10%;
+}
+.container2{
     padding: 10px 10%;
 }
 
 .banner{
     font-size: 60px;
-    color: #363636;
+    color: #ccc;
 }
 .banner span{
     color: #648de5;
+    
 }
 
 nav{
@@ -57,7 +62,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: #363636;
+    color: #ccc;
     text-decoration: none;
     font-size: 18px;
     position: relative;
