@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matias Tupper - Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5d73bd6dbe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="project-header">
+    <div class="container1">
+        <nav>
+            <h1 class="banner"><span>F</span>lappy<span> C</span>lone</h1>
+            <ul id="sidemenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <!--<li><a href="#services">Services</a></li>-->
+                <li><a href="index.html#portfolio">Portfolio</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+<div id="about">
+    <div class="container2">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Flappy Clone SS.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About</h1>
+                <p> This is my first project in the Godot Engine. While not my first time playing around with game dev, this was my first project that had a clear end goal in mind.
+                    While it isn't either complicated or original, I built this project from scratch, including all the assets, such as the bird, pipes, and background. In the process,
+                    I learned a lot about the Godot Engine, and how to build a game from the ground up.
+                    <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">What I learned</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>How to implement sound effects</li>
+                            <li>How to build a game from scratch</li>
+                            <li>How to create and animate sprites</li>
+                            <li>How to create a simple game loop</li>
+                        </ul>
+                    </div>
+                </div>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
