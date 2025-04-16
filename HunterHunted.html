@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hunter Hunted</title>
+    <!--<link rel="stylesheet" href="style.css">-->
+    <script src="https://kit.fontawesome.com/5d73bd6dbe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div className="min-h-screen bg-zinc-900 text-white p-6 space-y-10">
+      <header className="text-center">
+        <h1 className="text-4xl font-bold">Hunter Hunted</h1>
+        <p className="text-xl mt-2">by Matias Tupper — Concept Creator</p>
+        <p className="italic mt-2">"Diegetic and immersive 4-player co-op horror cryptid hunting game."</p>
+      </header>
+
+      <section>
+        <h2 className="text-2xl font-semibold mb-2">Overview</h2>
+        <p>
+          Hunter Hunted is a cooperative horror experience designed for up to four players. Built in Godot and targeting a Steam release, it tasks players with tracking down terrifying cryptids inspired by folklore — such as Wendigos and Skinwalkers — in hostile, atmospheric environments. 
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-semibold mb-2">Core Concept</h2>
+        <p>
+          The game’s core revolves around immersive and diegetic interaction — firearms and hunting tools require players to engage through realistic, in-world controls instead of traditional keyboard shortcuts. 
+          Players must communicate via in-game voice chat, navigating fog-choked forests and other unsettling landscapes, trying to survive the hunt... while being hunted themselves.
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-semibold mb-2">Gameplay Mechanics</h2>
+
+        <h3 className="text-xl font-semibold mt-4">Firearms</h3>
+        <ul className="list-disc list-inside space-y-1">
+          <li>
+            All firearms — including revolvers, bolt-action rifles, double-barrel shotguns, and lever-action rifles — use diegetic reloading systems. Instead of a simple button press, players must interact with the weapon physically.
+          </li>
+          <li>
+            Holding the reload key (R) detaches the camera from the first-person view, allowing players to manually reload using the mouse.
+          </li>
+          <li>
+            Reloading a revolver, for example, involves opening the chamber, ejecting spent shells (individually or all at once), then dragging bullets from a belt or pouch into the chamber. Speed loaders may simplify this process.
+          </li>
+          <li>
+            Monster roars or sudden scares during reloads can cause players to drop bullets. Dropped items must be retrieved in the world, adding risk and immersion.
+          </li>
+        </ul>
+
+        <h3 className="text-xl font-semibold mt-4">Tools</h3>
+        <ul className="list-disc list-inside space-y-1">
+          <li><strong>Oil Lantern:</strong> Limited-fuel handheld light source. Useful but risky — can attract attention.</li>
+          <li><strong>Woodcutting Axe / Hatchet:</strong> Basic melee option when ammo runs out.</li>
+          <li><strong>Bundle of Dynamite:</strong> Throwable with short fuse. Very loud and highly destructive.</li>
+          <li><strong>Molotov:</strong> Firebomb for temporary area denial. Useful for flushing out enemies or blocking access.</li>
+          <li><strong>Stun / Decoy Grenade:</strong> Disorients monsters with light and noise — perfect for evasive tactics.</li>
+          <li><strong>Bear Trap:</strong> Immobilizes monsters briefly. Can be reset after use.</li>
+        </ul>
+
+        <h3 className="text-xl font-semibold mt-4">Monsters</h3>
+        <ul className="list-disc list-inside space-y-1">
+          <li>Monsters detect movement and in-game voice chat, increasing tension.</li>
+          <li>One unique monster can mimic player voices, creating distrust and fear.</li>
+          <li>Planned feature: AI-generated twisted versions of player voices to mislead the team.</li>
+        </ul>
+
+        <h3 className="text-xl font-semibold mt-4">World / Environment</h3>
+        <ul className="list-disc list-inside space-y-1">
+          <li>Environments include foggy forests and eerie western-style settlements.</li>
+          <li>Weather, lighting, and ambient soundscapes drive atmosphere and immersion.</li>
+          <li>Wildlife like crows react to sound, revealing both player and monster locations.</li>
+          <li>Exploration is rewarded — find gear, supplies, or clues in cabins and ruins.</li>
+          <li>All noise — from voice to reloads — affects stealth and monster awareness.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-semibold mb-2">Gameplay Inspirations</h2>
+        <ul className="list-disc list-inside space-y-1">
+          <li><strong>Lethal Company</strong>: Co-op horror structure and tone</li>
+          <li><strong>Hunt: Showdown</strong>: Dark, western-eldritch atmosphere and monster design</li>
+          <li><strong>Due Process</strong>: Stylized visuals — low poly models with pixel art textures, evoking a nostalgic PS2-era look</li>
+        </ul>
+
+        <h3 className="text-xl font-semibold mt-4">Visual Style & Art Direction</h3>
+        <ul className="list-disc list-inside space-y-1">
+          <li><strong>Low-Poly Characters & Monsters:</strong> Chunky, expressive silhouettes for readability in low light. Monsters lean into exaggerated forms to remain unsettling even with limited poly counts.</li>
+          <li><strong>Pixel Art Textures:</strong> Hand-crafted 256x256 or 512x512 textures to evoke PS1/PS2-era horror. Gives environments a gritty, eerie aesthetic with a retro charm.</li>
+          <li><strong>Dark Palette & Stylized Fog:</strong> Heavy use of contrast and silhouette. Fog is stylized with dithering or color banding to match the pixelated aesthetic.</li>
+          <li><strong>Minimal UI:</strong> Prioritizes diegetic indicators (e.g. glowing lantern fuel gauge, visual damage effects) instead of overlays.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-semibold mb-2">Monsters & Mythos</h2>
+        <p className="mb-4">Hunter Hunted draws heavily from Native American folklore to inspire its monstrous entities, blending eerie myth with western-eldritch horror.</p>
+        <ul className="list-disc list-inside space-y-3">
+          <li>
+            <strong>Skinwalker (Navajo):</strong> Shape-shifting witches who can transform into animals and mimic human voices to lure victims. Terrifying and taboo figures, perfect for stealth and deception mechanics.
+          </li>
+          <li>
+            <strong>Wendigo (Algonquian):</strong> Emaciated spirits of hunger and greed that possess people, driving them to cannibalism. Ideal for icy environments and survival-based gameplay.
+          </li>
+          <li>
+            <strong>Stikini (Seminole):</strong> Owl-witch monsters who remove their own organs to become nightmarish predators. Known to bring death and fear, often heard through ominous screams in the night.
+          </li>
+          <li>
+            <strong>Uktena (Cherokee):</strong> A powerful, horned serpent with blazing eyes and a gem-like crest. Mysterious and ancient, it could serve as a rare or mythic-level creature guarding sacred areas.
+          </li>
+          <li>
+            <strong>Wechuge (Athabaskan / Dene - Beaver Tribe):</strong> A human transformed by pride or excess into a cannibalistic creature. Often confused with the Wendigo in pop culture, the Wechuge is sometimes depicted with animalistic or antlered features. Unlike the Wendigo, the Wechuge retains intelligence and cunning, making it a perfect candidate for a deceptive, manipulative predator that hunts in packs and lures players into traps.
+          </li>
+        </ul>
+      </section>
+    </div>
